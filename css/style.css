@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Press Start 2P', cursive;
+}
+/* @keyframes FadeInTop {
+    from {
+      transform: ;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  } */
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+a,
+button {
+    cursor: pointer;
+}
+.box-img {
+    width: 150px;
+}
+.box-img-2 {
+    width: 160px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(64, 64, 255);
+    width: 100%;
+    height: 100%;
+    background-image: url("../magem/PPP.jpg");
+    background-size: cover;
+}
+.max-width {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(64, 64, 255);
+}
+.maranhao {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 19%;      /* margem de quantos % para o topo*/
+    /* right: 0%;    margem de quantos % para o direita */
+    left: 13%;    /* margem de quantos % para o esquerda */
+    /* bottom: 45%;  margem de quantos % para  baixo */
+
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+
+    cursor: pointer;
+}
+.piaui {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 37%;      /* margem de quantos % para o topo*/
+    /* right: 0%;    margem de quantos % para o direita */
+    left: 24%;    /* margem de quantos % para o esquerda */
+    /* bottom: 45%;  margem de quantos % para  baixo */
+
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+
+    cursor: pointer;
+}
+.pernambuco {
+    width: 150px;
+    height: 50px;
+    /* manipula onde cada imagem vai ficar */
+    position: absolute;
+    top: 44%;      /* margem de quantos % para o topo */
+    right: 0%;    /* margem de quantos % para o direita */
+    left: 3%;    /* margem de quantos % para o esquerda */
+    bottom: 45%;  /* margem de quantos % para  baixo */
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.paraiba {
+    width: 150px;
+    height: 50px;
+    /* manipula onde cada imagem vai ficar */
+    position: absolute;
+    top: 35%;      /* margem de quantos % para o topo */
+    right: 0%;    /* margem de quantos % para o direita */
+    left: 17%;
+    bottom: 45%;  /* margem de quantos % para  baixo */
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.ceara {
+    width: 150px;
+    height: 50px;
+    /* manipula onde cada imagem vai ficar */
+    position: absolute;
+    top:22%;      /* margem de quantos % para o topo */
+    right: 50%;    /* margem de quantos % para o direita */
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.bahia {
+    width: 150px;
+    height: 50px;
+    /* manipula onde cada imagem vai ficar */
+    position: absolute;
+    top: 65%;
+    right: 59%;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.alagoas {
+    width: 150px;
+    height: 50px;
+    /* manipula onde cada imagem vai ficar */
+    position: absolute;
+    top: 53%;
+    right: 0%;
+    left: 15%;    /* margem de quantos % para o esquerda */
+    bottom: 45%;  /* margem de quantos % para  baixo */
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.sergipe {
+    width: 150px;
+    height: 50px;
+    /* manipula onde cada imagem vai ficar */
+    position: absolute;
+    top: 59%;      /* margem de quantos % para o topo */
+    right: 0%;    /* margem de quantos % para o direita */
+    left: 4%;    /* margem de quantos % para o esquerda */
+    bottom: 45%;  /* margem de quantos % para  baixo */
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.rioGrandeDoNorte {
+    width: 150px;
+    height: 50px;
+    /* manipula onde cada imagem vai ficar */
+    position: absolute;
+    top: 21%;      /* margem de quantos % para o topo */
+    left: 52%;    /* margem de quantos % para o direita */
+    
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.maranhao > img {
+
+    width: 50%;
+    margin: 0 auto;
+}
+.pernambuco > img {
+    width: 150px;
+    margin: 0 auto;
+}
+.pernambuco > img {
+    width: 150px;
+    margin: 0 auto;
+}
+.pernambuco > img {
+    width: 150px;
+    margin: 0 auto;
+}
+.pernambuco > img {
+    width: 150px;
+    margin: 0 auto;
+}
+.pernambuco > img {
+    width: 150px;
+    margin: 0 auto;
+}
+.pernambuco > img {
+    width: 150px;
+    margin: 0 auto;
+}
+.pernambuco > img {
+    width: 150px;
+    margin: 0 auto;
+}
+.pernambuco > img {
+    width: 150px;
+    margin: 0 auto;
+}
+.pernambuco > img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+/* .div-teste h2 {
+    display: none;
+    color: yellow;
+}
+.div-teste:hover h2 {
+    display: block;
+} */
+
+@media (min-width: 1366px) {
+    .rio_grande_do_norte {
+        top: 43%;
+        left: 48%;
+    }
+}
+@media (min-width: 1083px) {
+    .rio_grande_do_norte {
+        top: 24%;
+        left: 57%;
+    }
+}

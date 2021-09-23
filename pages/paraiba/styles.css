@@ -46,7 +46,9 @@ body, html {
 }
 .sidebar {
     width: 30%;
-    height: 100%;
+    height: 80%;
+    border-bottom: 10px;
+    border-top: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,6 +86,10 @@ body, html {
     width: 50%;
     height: 100%;
     display: flex;
+<<<<<<< HEAD
+=======
+    border: 2px solid rgb(124, 124, 124);
+>>>>>>> 405b0750d8ae1e8aa54614d53e2608b152aaed89
 }
 .row {
     display: flex;
@@ -95,7 +101,11 @@ body, html {
     width: 100%;
     height: 100%;
     display: flex;
+<<<<<<< HEAD
     /* background: red; */
+=======
+    border: 2px solid rgb(124, 124, 124);
+>>>>>>> 405b0750d8ae1e8aa54614d53e2608b152aaed89
 }
 .w70 {
     width: 70%;
@@ -105,7 +115,11 @@ body, html {
 .w30 {
     width: 30%;
     height: 100%;
+<<<<<<< HEAD
     /* background: purple; */
+=======
+   
+>>>>>>> 405b0750d8ae1e8aa54614d53e2608b152aaed89
 }
 .title {
     background: #03A007;

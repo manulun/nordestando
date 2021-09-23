@@ -40,7 +40,7 @@ body, html {
 }
 .boxContainer {
     width: 90%;
-    height: 90%;
+    height: 100%;
     background-color: rgba(250, 250,250,.5);
     border-radius: 5px;
 }
@@ -86,10 +86,7 @@ body, html {
     width: 50%;
     height: 100%;
     display: flex;
-<<<<<<< HEAD
-=======
-    border: 2px solid rgb(124, 124, 124);
->>>>>>> 405b0750d8ae1e8aa54614d53e2608b152aaed89
+    /* border: 2px solid rgb(124, 124, 124); */
 }
 .row {
     display: flex;
@@ -101,11 +98,7 @@ body, html {
     width: 100%;
     height: 100%;
     display: flex;
-<<<<<<< HEAD
     /* background: red; */
-=======
-    border: 2px solid rgb(124, 124, 124);
->>>>>>> 405b0750d8ae1e8aa54614d53e2608b152aaed89
 }
 .w70 {
     width: 70%;
@@ -115,11 +108,7 @@ body, html {
 .w30 {
     width: 30%;
     height: 100%;
-<<<<<<< HEAD
     /* background: purple; */
-=======
-   
->>>>>>> 405b0750d8ae1e8aa54614d53e2608b152aaed89
 }
 .title {
     background: #03A007;
@@ -138,6 +127,7 @@ body, html {
     text-align: justify;
     padding: 5px;
 }
+
 .column {
     display: flex;
     flex-direction: column;

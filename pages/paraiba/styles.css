@@ -61,7 +61,8 @@ body, html {
     border-radius: 5px;
     margin-top: 30px;
     flex-direction: column;
-    
+    background-color: rgba(250, 250,250,.5);
+    color: #fff;
 }
 .boxSidebar a {
     display: flex;
@@ -69,6 +70,7 @@ body, html {
     margin-left: 20px;
     margin-top: 15px;
     cursor: pointer;
+    margin-bottom: 5px;
 }
 .boxSidebar a > i {
     margin-right: 10px;
@@ -125,7 +127,7 @@ body, html {
     width: 100%;
     height: auto;
     text-align: justify;
-    padding: 5px;
+    padding: 10px;
 }
 
 .column {

@@ -168,6 +168,18 @@ body, html {
     align-items: center;
     justify-content: center;
 }
+.overlay-criador {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(163, 163, 163,.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
 .form {
     width: 50%;
     height: auto;
@@ -240,4 +252,16 @@ body, html {
     justify-content: center;
     color: #fff;
     cursor: pointer;
+}
+.w100 {
+    width: 100%;
+}
+.divCriadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn .3s ease-in-out;
+    background-color: #fff;
+    width: 80%;
+    
 }

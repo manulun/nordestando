@@ -127,6 +127,8 @@ body, html {
     width: 100%;
     height: auto;
     text-align: justify;
+}
+.content p {
     padding: 10px;
 }
 
@@ -258,10 +260,30 @@ body, html {
 }
 .divCriadores {
     display: flex;
-    align-items: center;
-    justify-content: center;
     animation: fadeIn .3s ease-in-out;
     background-color: #fff;
     width: 80%;
     
+}
+.divCriadoreInfo {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    
+}
+.divInRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.close-criadores {
+    width: 120px;
+    padding: 10px 35px;
+    margin-top: 30px;
+    background-color: #d9271a;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
 }

@@ -22,7 +22,7 @@ body, html {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    background-image: url('./p.jpeg');
+    background-image: url('./img.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -127,6 +127,8 @@ body, html {
     width: 100%;
     height: auto;
     text-align: justify;
+}
+.content p {
     padding: 10px;
 }
 
@@ -157,6 +159,18 @@ body, html {
     z-index: 10;
   }
 .overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(163, 163, 163,.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.overlay-criador {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -239,5 +253,37 @@ body, html {
     align-items: center;
     justify-content: center;
     color: #fff;
+    cursor: pointer;
+}
+.w100 {
+    width: 100%;
+}
+.divCriadores {
+    display: flex;
+    animation: fadeIn .3s ease-in-out;
+    background-color: #fff;
+    width: 80%;
+    
+}
+.divCriadoreInfo {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    
+}
+.divInRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.close-criadores {
+    width: 120px;
+    padding: 10px 35px;
+    margin-top: 30px;
+    background-color: #d9271a;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
     cursor: pointer;
 }
